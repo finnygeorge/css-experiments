@@ -1,0 +1,48 @@
+
+body{
+    height: 3000px;
+}
+h1{
+  
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+h2{
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+p{
+    line-height: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+div{
+    height: 100px;
+    width: 100px;
+    
+}
+#box1{
+    background-color: darkblue;
+    position: relative; 
+    left:100px;
+}
+#box2{
+    background-color: rgba(19, 226, 181, 0.637);
+}
+#box3{
+    background-color:rgb(169, 169, 169);
+}
+#box4{
+    background-color: rgba(226, 222, 13, 0.658);
+}
+#box5{
+    background-color: rgba(0, 0, 0, 0.87);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    height: 30px;width: 100%;
+}
