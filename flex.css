@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    background-color: darkgreen;
+}
+.container{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap
+}
+.one,.two,.three{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 1px solid white ;
+}
+.two{
+    background-color: blueviolet;
+}
+.three{
+    background-color: coral;
+}
